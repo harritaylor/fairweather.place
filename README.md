@@ -10,7 +10,7 @@ Given a specific town or lat/lon location, transit options & time to travel, the
 
 - [x] Valid longitude and latitude is accepted
 - [x] Invalid latitude is rejected
-- [ ] Invalid longitude is rejected
+- [x] Invalid longitude is rejected
 - [ ] A failed location lookup returns an error
 - [ ] The browser lookup is connected to the application
 - [ ] A succesful location lookup returns its latitude and longitude

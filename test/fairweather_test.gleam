@@ -19,3 +19,11 @@ pub fn rejects_invalid_latitudes_test() {
     |> should.equal(Error(Nil))
   })
 }
+
+pub fn rejects_invalid_longitudes_test() {
+  [-180.0001, 180.0001]
+  |> list.each(fn(longitude) {
+    fairweather.validate_coordinates(51.8815, longitude)
+    |> should.equal(Error(Nil))
+  })
+}
