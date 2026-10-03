@@ -8,11 +8,12 @@ Given a specific town or lat/lon location, transit options & time to travel, the
 
 ## Test list
 
-- [ ] A succesful location lookup returns its latitude and longitude
+- [x] Valid longitude and latitude is accepted
 - [ ] Invalid latitude is rejected
 - [ ] Invalid longitude is rejected
 - [ ] A failed location lookup returns an error
 - [ ] The browser lookup is connected to the application
+- [ ] A succesful location lookup returns its latitude and longitude
 - [ ] A list of locations within a 60 minute drive must be shown
 - [ ] The hourly weather forecast for the next 48hrs for the current location must be shown
 - [ ] The hourly weather forecast for the list of locations must be shown
