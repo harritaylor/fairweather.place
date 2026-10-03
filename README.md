@@ -8,13 +8,13 @@ Given a specific town or lat/lon location, transit options & time to travel, the
 
 ## Test list
 
-- The current location must be looked up and validated, returning a lat/lon
-- A list of locations within a 60 minute drive must be shown
-- The hourly weather forecast for the next 48hrs for the current location must be shown
-- The hourly weather forecast for the list of locations must be shown
-- The ranking algorithm must show areas with the longest period of clear weather first
-- the ranking algorithm must balance visitor popularity with weather conditions
-- If all areas have poor weather conditions, the ranking algorithm must state so
+- [ ] The current location must be looked up and validated, returning a lat/lon
+- [ ] A list of locations within a 60 minute drive must be shown
+- [ ] The hourly weather forecast for the next 48hrs for the current location must be shown
+- [ ] The hourly weather forecast for the list of locations must be shown
+- [ ] The ranking algorithm must show areas with the longest period of clear weather first
+- [ ] the ranking algorithm must balance visitor popularity with weather conditions
+- [ ] If all areas have poor weather conditions, the ranking algorithm must state so
 
 ## Research
 
