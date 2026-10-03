@@ -9,7 +9,7 @@ Given a specific town or lat/lon location, transit options & time to travel, the
 ## Test list
 
 - [x] Valid longitude and latitude is accepted
-- [ ] Invalid latitude is rejected
+- [x] Invalid latitude is rejected
 - [ ] Invalid longitude is rejected
 - [ ] A failed location lookup returns an error
 - [ ] The browser lookup is connected to the application
