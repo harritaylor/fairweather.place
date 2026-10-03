@@ -27,3 +27,18 @@ pub fn rejects_invalid_longitudes_test() {
     |> should.equal(Error(Nil))
   })
 }
+
+pub fn accepts_valid_boundaries_test() {
+  [
+    #(-90.0, -180.0),
+    #(-90.0, 180.0),
+    #(90.0, -180.0),
+    #(90.0, 180.0),
+  ]
+  |> list.each(fn(coordinates) {
+    let #(latitude, longitude) = coordinates
+
+    fairweather.validate_coordinates(latitude, longitude)
+    |> should.equal(Ok(coordinates))
+  })
+}

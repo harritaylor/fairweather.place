@@ -11,8 +11,16 @@ Given a specific town or lat/lon location, transit options & time to travel, the
 - [x] Valid longitude and latitude is accepted
 - [x] Invalid latitude is rejected
 - [x] Invalid longitude is rejected
+- [x] valid boundary coordinates are accepted
+- [ ] A successful lookup returns validated, rounded coordinates
 - [ ] A failed location lookup returns an error
-- [ ] The browser lookup is connected to the application
+- [ ] invalid coordinates returned by a lookup are rejected
+- [ ] browser coordinates are passed through coordinate values
+- [ ] if browser location access fails, the application reports that no location is available
+- [ ] a nearby-place search uses the validated coordinates and a specifid radius
+- [ ] places returned by the search are shown
+- [ ] a search with no matching places reports that none were found
+- [ ] a failed nearby-place search reports an error
 - [ ] A succesful location lookup returns its latitude and longitude
 - [ ] A list of locations within a 60 minute drive must be shown
 - [ ] The hourly weather forecast for the next 48hrs for the current location must be shown
